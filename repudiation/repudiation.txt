@@ -1,2 +1,11 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Repudiation is a security vulnerability that occurs when a user denies having performed a particular action. In a system, this means that a user can carry out an action (like making a transaction, sending a message, or modifying data) and later deny that they did it. This can be a problem, especially in systems where accountability and non-repudiation are crucial, such as financial transactions or legal agreements.
+
+In addition to the above, here are more ways to enhance security against repudiation:
+
+Time Stamps: Adding timestamps to actions helps in establishing the order of events. This can be crucial in proving the timeline of actions in case of a dispute.
+Third-Party Witnesses: In some cases, involving a trusted third party as a witness to transactions or actions can add an extra layer of verification.
+Legal Contracts: For critical transactions, legal contracts can outline the responsibilities and liabilities of each party. This can serve as a deterrent against repudiation and provide legal recourse.
+Encryption: Protecting the data itself through encryption ensures that even if a message or transaction is intercepted, its contents remain confidential and tamper-proof.
